@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Clearview™</title>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/hint.min.css">
+  <link rel="stylesheet" href="css/build/style.css">
+
+  <!-- the following 2 style tags must be the last style tags in head -->
+  <style id="_stylefy-constant-styles_"></style>
+  <style id="_stylefy-styles_"></style>
+
+  <!-- polyfills for IE -->
+  <script src="js/ie-polyfill.js"></script>
+  <script src="js/babel-polyfill.min.js"></script>
+</head>
+
+<body>
+  <!-- placeholder to mount the app root -->
+  <div id="app">
+    <!-- show busy spinner until the app is mounted -->
+    <div id="app-loading">
+      <div id="spinner"></div>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/init.js"></script>
+
+  <!-- start the app -->
+  <script>cpe.core.init();</script>
+
+  <!-- then load utilities not immediately needed -->
+  <script src="js/canvas-to-blob.min.js"></script>
+  <script src="js/rgbcolor.js"></script>
+  <script src="js/stackblur.js"></script>
+  <script src="js/canvg.js"></script>
+  <script src="js/util.js"></script>
+  <script type="text/javascript" src="js/pdfkit.js"></script>
+  <script type="text/javascript" src="js/blob-stream.js"></script>
+  <script type="text/javascript" src="js/xlsx.core.min.js"></script>
+  <script type="text/javascript" src="js/excelplus-2.5.min.js"></script>
+  <!--<script type="text/javascript" src="js/pdfkit.js"></script>-->
+  <!--<script type="text/javascript" src="js/blob-stream.js"></script>-->
+</body>
+
+</html>
